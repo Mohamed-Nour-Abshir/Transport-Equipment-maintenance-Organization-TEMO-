@@ -25,9 +25,6 @@ btn.addEventListener("click", () => {
         case 'SparePartsWiseAsRespectWorkorder':
             window.location.assign("file:///C:/Users/Kaizen%20IT/Desktop/Transport%20&%20Equipment%20maintenance%20Organization(TEMO)/InnerPages/SparePartsWiseAsRespectWorkorder.html");
             break;
-        case 'StockRegister':
-            window.location.assign("file:///C:/Users/Kaizen%20IT/Desktop/Transport%20&%20Equipment%20maintenance%20Organization(TEMO)/InnerPages/StockRegister.html");
-            break;
         case 'Supplier':
             window.location.assign("file:///C:/Users/Kaizen%20IT/Desktop/Transport%20&%20Equipment%20maintenance%20Organization(TEMO)/InnerPages/Supplier.html");
             break;
