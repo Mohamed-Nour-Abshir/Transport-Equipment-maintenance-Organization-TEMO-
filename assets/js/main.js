@@ -11,7 +11,7 @@ btn.addEventListener("click", () => {
     }
     switch (selectedReoprt) {
         case 'QuotationLowestPrice':
-            window.location.assign("../InnerPages/QuotationLowestPrice.html");
+            window.location.assign("file:///C:/Users/Kaizen%20IT/Desktop/Transport%20&%20Equipment%20maintenance%20Organization(TEMO)/InnerPages/ComperativeStatementQuotationPriceBase.html");
             break;
         case 'ComperativeStatementQuotationPriceBase':
             window.location.assign("file:///C:/Users/Kaizen%20IT/Desktop/Transport%20&%20Equipment%20maintenance%20Organization(TEMO)/InnerPages/ComperativeStatementQuotationPriceBase.html");
