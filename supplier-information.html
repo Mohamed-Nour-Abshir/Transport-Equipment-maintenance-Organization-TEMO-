@@ -134,9 +134,6 @@
               aria-label="Search Supplier data"
               aria-describedby="button-addon2"
             />
-            <button class="btn btn-primary" type="button" id="button-addon2">
-              Serach
-            </button>
           </div>
           <div class="row">
             <div class="col-md-6">
@@ -307,38 +304,39 @@
               aria-label="Close"
             ></button>
           </div>
-          <div class="modal-body">
-            <form action="">
-              <div class="form-group mb-3">
-                <label for="supplier-id" class="form-label">Supplier id</label>
-                <input type="text" id="supplier-id" class="form-control" disabled>
+          <form action="">
+            <div class="modal-body">
+                <div class="form-group mb-3">
+                  <label for="supplier-id" class="form-label">Supplier id</label>
+                  <input type="text" id="supplier-id" class="form-control" disabled>
+                </div>
+                <div class="form-group mb-3">
+                  <label for="supplier-name" class="form-label">Supplier Name</label>
+                  <input type="text" id="supplier-name" class="form-control">
+                </div>
+                <div class="form-group mb-3">
+                  <label for="phone-no" class="form-label">Phone No</label>
+                  <input type="number" id="phone-no" class="form-control">
+                </div>
+                <div class="form-group mb-3">
+                  <label for="email" class="form-label">Email Acc</label>
+                  <input type="email" id="email" class="form-control">
+                </div>
+                <div class="form-group mb-3">
+                  <label for="address" class="form-label">Supplier Address</label>
+                  <textarea  id="address" cols="30" rows="10" class="form-control"></textarea>
+                </div>
+                <div class="form-group mb-3">
+                  <label for="date" class="form-label">Date</label>
+                  <input type="date" id="date"  class="form-control">
+                </div>
               </div>
-              <div class="form-group mb-3">
-                <label for="supplier-name" class="form-label">Supplier Name</label>
-                <input type="text" id="supplier-name" class="form-control">
-              </div>
-              <div class="form-group mb-3">
-                <label for="phone-no" class="form-label">Phone No</label>
-                <input type="number" id="phone-no" class="form-control">
-              </div>
-              <div class="form-group mb-3">
-                <label for="email" class="form-label">Email Acc</label>
-                <input type="email" id="email" class="form-control">
-              </div>
-              <div class="form-group mb-3">
-                <label for="address" class="form-label">Supplier Address</label>
-                <textarea  id="address" cols="30" rows="10" class="form-control"></textarea>
-              </div>
-              <div class="form-group mb-3">
-                <label for="date" class="form-label">Date</label>
-                <input type="date" id="date"  class="form-control">
-              </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary">Save</button>
+            <div class="modal-footer">
+              <button type="submit" class="btn btn-primary">Save</button>
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            </div>
           </form>
-            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-          </div>
+        
         </div>
       </div>
     </div>

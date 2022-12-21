@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Transport & Equipment Maintenance Organization(TEMO)</title>
+    <title>Transport & Equipment Maintenance Organization(TEMO) / Supplier Information</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -64,7 +64,7 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="vehicles-information.html"
+              <a class="nav-link" href="#"
                 ><i
                   class="fa-solid fa-truck"
                   style="color: yellow; margin-left: 60px"
@@ -90,15 +90,17 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="workorder-information.html"
+              <a class="nav-link" href="#"
                 ><i class="fa-solid fa-receipt" style="margin-left: 70px"></i>
                 <br />Work Order Information</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link px-3" href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <a class="nav-link px-3" href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">
                 <i class="fa-solid fa-print" style="margin-left: 30px"></i>
-                <br />Report Print</a>
+                <br />
+                Report Print</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link px-5" href="#"
@@ -117,142 +119,115 @@
     <!-- Navbar-section End -->
 
     <!-- main-section Start -->
-    <section id="header">
-      <!-- <p>Welcome To The Transport & Equipment Maintenance Organization(TEMO)</p> -->
-      <div class="py-5">
-        <div class="container">
-          <div class="row hidden-md-up">
-            <div class="col-md-4">
-              <a href="supplier-information.html" style="font-size: 20px">
-                <div class="card p-5">
-                  <div class="card-block">
-                    <h6 class="card-subtitle text-muted text-center">
-                      <img
-                        src="assets/images/supplier.png"
-                        alt=""
-                        width="50"
-                        height="50"
-                      />
-                    </h6>
-                    <h1 class="card-text p-y-1 text-muted text-center">
-                      Supplier Information .
-                    </h1>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-md-4">
-              <a href="" style="font-size: 20px">
-                <div class="card p-5">
-                  <div class="card-block">
-                    <h6 class="card-subtitle text-muted text-center">
-                      <img
-                        src="assets/images/vehicle.png"
-                        alt=""
-                        width="50"
-                        height="50"
-                      />
-                    </h6>
-                    <h1 class="card-text h1-y-1 text-muted text-center">
-                      Vehicle Information .
-                    </h1>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-md-4">
-              <a href="parts-information.html" style="font-size: 20px">
-                <div class="card p-5">
-                  <div class="card-block">
-                    <h6 class="card-subtitle text-muted text-center">
-                      <img
-                        src="assets/images/parts.png"
-                        alt=""
-                        width="50"
-                        height="50"
-                      />
-                    </h6>
-                    <h1 class="card-text p-y-1 text-muted text-center">
-                      Parts Information .
-                    </h1>
-                  </div>
-                </div>
-              </a>
-            </div>
+    <div class="container p-5" style="background: rgb(113, 113, 245); color: #ffff; width: auto">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="h1 mb-5">Vehicle Information Setup</h1>
+          <div class="input-group mb-3 float-none text-center mb-5">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Search Supplier data"
+              aria-label="Search Supplier data"
+              aria-describedby="button-addon2"
+            />
           </div>
-          <br />
           <div class="row">
-            <div class="col-md-4">
-              <a href="quotation-information.html" style="font-size: 20px">
-                <div class="card p-5">
-                  <div class="card-block">
-                    <h6 class="card-subtitle text-muted text-center">
-                      <img
-                        src="assets/images/quotation.png"
-                        alt=""
-                        width="50"
-                        height="50"
-                      />
-                    </h6>
-                    <h1 class="card-text p-y-1 text-muted text-center">
-                      Quotation Information .
-                    </h1>
-                  </div>
-                </div>
-              </a>
+            <div class="col-md-6">
+              <p class="float-start">All Vehicles Information</p>
             </div>
-            <div class="col-md-4">
-              <a href="" style="font-size: 20px">
-                <div class="card p-5">
-                  <div class="card-block">
-                    <h6 class="card-subtitle text-muted text-center">
-                      <img
-                        src="assets/images/work-order.png"
-                        alt=""
-                        width="50"
-                        height="50"
-                      />
-                    </h6>
-                    <h1 class="card-text p-y-1 text-muted text-center">
-                      Work Order Information.
-                    </h1>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-md-4">
-              <a href="" style="font-size: 20px" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                <div class="card p-5">
-                  <div class="card-block">
-                    <h6 class="card-subtitle text-muted text-center">
-                      <img
-                        src="assets/images/printer.png"
-                        alt=""
-                        width="50"
-                        height="50"
-                      />
-                    </h6>
-                    <h1 class="card-text p-y-1 text-muted text-center">
-                      Report Print .
-                    </h1>
-                  </div>
-                </div>
-              </a>
+            <div class="col-md-6">
+              <a
+                href=""
+                class="btn btn-primary float-end mb-3"
+                data-bs-toggle="modal"
+                data-bs-target="#SupplierInformation"
+                >Add Vehicle Information</a
+              >
             </div>
           </div>
-
-
-          <!-- <div class="d-flex justify-content-around">
-            <p>Item1</p>
-            <p>Item1</p>
-            <p>Item1</p>
-          </div> -->
-
-
+          <table class="table table-bordered text-light p-5">
+            <thead>
+              <tr>
+                <th>SL No.</th>
+                <th>Vehicle Nme</th>
+                <th>Vehicle code</th>
+                <th>Madein</th>
+                <th>Vehicle ED</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>V01</td>
+                <td>car</td>
+                <td>local</td>
+                <td>24-11-2022</td>
+                <td>
+                  <a href="" title="Edit"><i class="fas fa-edit text-primary fa-2x"></i></a>
+                  <a href="" title="delete"><i class="fas fa-remove text-danger fa-2x"></i></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
-    </section>
+    </div>
+
     <!-- main-section End -->
+
+    <!-- Modal vehicles Information Modal-->
+    <div
+      class="modal fade"
+      id="SupplierInformation"
+      tabindex="-1"
+      aria-labelledby="SupplierInformationLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="SupplierInformationLabel">
+              Vehicles Information Setup
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <form action="">
+            <div class="modal-body">
+                <div class="form-group mb-3">
+                  <label for="vehicle-name" class="form-label">Vehicle Name</label>
+                  <input type="text" id="vehicle-name" class="form-control" disabled>
+                </div>
+                <div class="form-group mb-3">
+                  <label for="vehicle-code" class="form-label">Vehicle Code</label>
+                  <input type="text" id="vehicle-code" class="form-control">
+                </div>
+                <div class="form-group mb-3">
+                  <label for="madein" class="form-label">Madein</label>
+                  <input type="text" id="madein" class="form-control">
+                </div>
+                <div class="form-group mb-3">
+                  <label for="vehicle-ED" class="form-label">Vehicle ED</label>
+                  <input type="date" id="vehicle-ED"  class="form-control">
+                </div>
+              </div>
+            <div class="modal-footer">
+              <button type="submit" class="btn btn-primary">Save</button>
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            </div>
+          </form>
+        
+        </div>
+      </div>
+    </div>
+
+
 
 
 
@@ -297,6 +272,12 @@
               <input class="form-check-input" type="radio" name="reportList" id="SparePartsWiseAsRespectWorkorder">
               <label class="form-check-label" for="SparePartsWiseAsRespectWorkorder">
                 Spare Parts Wise As Respect Workorder
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="reportList" id="StockRegister">
+              <label class="form-check-label" for="StockRegister">
+                Stock Register
               </label>
             </div>
             <div class="form-check">
@@ -355,28 +336,6 @@
       </div>
     </div>
 
-
-    <!-- footer-start  -->
-    <footer>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a href="" class="nav-link px-5 fs-6"
-              >OMS (TEMO's Personal Product)</a
-            >
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link px-5 fs-6">Made By, MD.Nour</a>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link px-5 fs-6">24/11/2022</a>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link px-5 fs-6"> 12:01 PM</a>
-          </li>
-        </ul>
-      </nav>
-    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
       integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
@@ -387,13 +346,6 @@
       integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
       crossorigin="anonymous"
     ></script>
-    <script>
-      function close_window() {
-        if (confirm("Close Window?")) {
-            window.close();
-        }
-    }
-    </script>
     <script src="assets/js/main.js"></script>
   </body>
 </html>
